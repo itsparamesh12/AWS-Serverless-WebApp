@@ -6,6 +6,16 @@ Developed a real-time serverless web application using AWS S3, Lambda, API Gatew
 
 ### About
 A real-time serverless web application built using AWS managed services to calculate powers of numbers dynamically.
+### STEPS
+Steps: 
+<img width="1894" height="357" alt="image" src="https://github.com/user-attachments/assets/65520332-e5f6-4844-a2e5-8460aac29c81" />
+
+1.Create IAM role to connect Lambda & DynamoDB
+2.Configure lambda
+3.Configure API gateway
+4.Configure DynamoDB
+5.Configure S3
+
 
 ### Tech Stack
 - AWS Lambda (Backend logic)
