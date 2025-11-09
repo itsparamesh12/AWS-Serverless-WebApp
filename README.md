@@ -3,7 +3,6 @@
 A real-time serverless web application built using AWS managed services to calculate powers of numbers dynamically.
 
 ### STEPS
-Steps: 
 1.Create IAM role to connect Lambda & DynamoDB
 2.Configure lambda
 3.Configure API gateway
