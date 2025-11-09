@@ -18,13 +18,15 @@ Steps:
 
 
 ### Tech Stack
-- AWS Lambda (Backend logic)
-- Amazon API Gateway (API handling)
+- Frontend: HTML, CSS, JavaScript (hosted on Amazon S3)
+- Backend: AWS Lambda (Backend logic)(python)
+- APIs: Amazon API Gateway (API handling)
 - Amazon S3 (Frontend hosting)
-- Amazon DynamoDB (Data storage)
-- AWS IAM (Access control)
+- Database: Amazon DynamoDB (Data storage)
+- Security: AWS IAM (Access control)
 
-### Architecture
+
+### Architecture Overview
 Frontend (HTML/JS in S3) → API Gateway → Lambda → DynamoDB
 
 ### Screenshots
@@ -41,7 +43,15 @@ Frontend (HTML/JS in S3) → API Gateway → Lambda → DynamoDB
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dac92801-5752-4b07-91ec-da75a737dfb5" />
 
 ### How It Works
-1. User enters base and exponent.
-2. API Gateway triggers Lambda function.
-3. Lambda computes result and stores it in DynamoDB.
-4. Response is displayed on the frontend.
+1. User enters the base and exponent on the web page.
+2. The frontend sends the request to API Gateway, which triggers a Lambda function.
+3. Lambda performs the calculation and stores the result in DynamoDB.
+4. The output is displayed on the frontend in real time.
+
+
+###Key Features
+Key Features
+• 100% Serverless Architecture
+• Real-time API Interaction
+• Scalable and Cost-efficient Design
+• Secure Access through AWS IAM Policies
