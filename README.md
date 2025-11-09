@@ -42,7 +42,6 @@ Frontend (HTML/JS in S3) → API Gateway → Lambda → DynamoDB
 
 
 ###Key Features
-Key Features
 • 100% Serverless Architecture
 • Real-time API Interaction
 • Scalable and Cost-efficient Design
